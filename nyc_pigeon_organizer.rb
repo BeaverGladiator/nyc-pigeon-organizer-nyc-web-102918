@@ -17,9 +17,6 @@ def nyc_pigeon_organizer(data)
     end 
   end
   
-  
-  
-  
   data.each do |attribute, pigeon_data|
     pigeon_data.each do |trait, pigeons|
       pigeons.each do |pigeon|
@@ -28,6 +25,4 @@ def nyc_pigeon_organizer(data)
     end 
   end
   
-
-
 end
