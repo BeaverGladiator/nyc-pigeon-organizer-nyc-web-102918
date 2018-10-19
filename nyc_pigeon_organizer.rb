@@ -9,7 +9,9 @@ def nyc_pigeon_organizer(data)
       pigeons.each do |pigeon|
         pigeon_list[pigeon] = {}
         binding.pry
-        
+        pigeon_list[pigeon] = {
+          attribute =>  [],
+        }
       end 
     end 
   end
