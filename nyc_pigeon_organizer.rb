@@ -2,12 +2,12 @@ require "pry"
 
 def nyc_pigeon_organizer(data)
   # write your code here!
-  pidgeon_list = {}
+  pigeon_list = {}
   
-  data.each do |attribute, pidgeon_data|
-    pidgeon_data.each do |trait, pidgeons|
+  data.each do |attribute, pigeon_data|
+    pigeon_data.each do |trait, pigeons|
       binding.pry
-      pidgeons.each.do |pidgeon|
+      pigeons.each.do |pigeon|
         binding.pry
       end 
     end 
