@@ -13,10 +13,12 @@ def nyc_pigeon_organizer(data)
         data.keys.each do |pigeon_attribute|
           pigeon_list[pigeon][pigeon_attribute] = {}
         end 
+        
+        binding.pry
       end 
     end 
   end
   
-  binding.pry
+
 
 end
