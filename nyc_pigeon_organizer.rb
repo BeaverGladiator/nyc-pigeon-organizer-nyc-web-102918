@@ -8,6 +8,7 @@ def nyc_pigeon_organizer(data)
     # pigeon_data.each do |trait, pigeons|
     #   binding.pry
     # end 
+    binding.pry
   end
   
 end
